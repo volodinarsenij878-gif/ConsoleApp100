@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Program57
+{
+    internal class Program
+    {
+        static void Main()
+        {
+            string a = null;
+            string b = "User";
+            string c = "Admin";
+            string res = a ?? b ?? c;
+            Console.WriteLine(res); // User
+        }
+    }
+}
+
